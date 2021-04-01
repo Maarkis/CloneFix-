@@ -1,0 +1,54 @@
+.main-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url('../assets/img/house-of-cards.jpg');    
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+ 
+}
+
+.main-movie .description {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title-main-movie {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0,0,0 , .50);
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 0px 10px 0px 0px;    
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+.button i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+}
